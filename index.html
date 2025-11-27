@@ -199,6 +199,7 @@
             border-color: rgba(255, 255, 255, 0.3);
         }
         .map-section {
+            
     width: 100%;
     max-width: 800px;
     margin-top: 20px;
@@ -284,6 +285,8 @@ body {
   margin-bottom: 20px;
   backdrop-filter: blur(5px);
 }
+
+
     </style>
 </head>
 <body class="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-blue-900 relative overflow-x-hidden">
@@ -313,27 +316,27 @@ body {
     <div class="relative z-10">
         <!-- Header -->
         <header class="relative py-6">
-            <div class="container mx-auto px-4">
-                <div class="flex items-center justify-between backdrop-blur-md bg-black bg-opacity-30 rounded-2xl p-4 border border-white border-opacity-10 slide-in">
-                    <div class="flex items-center gap-4">
-                        <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center pulse-glow">
-                            <span class="text-white font-bold text-sm">KEA</span>
+
+        </header>
+
+                <section class="py-16 bg-black bg-opacity-30 relative">
+            <div class="container mx-auto px-4 text-center">
+                <div class="slide-in" style="animation-delay: 2s;">
+                    <p class="text-gray-300 text-xl mb-6">Sponsored by</p>
+                    <h3 class="text-3xl md:text-4xl font-bold text-white mb-12 bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
+                        Ahmed AL MAGHRIBI
+                    </h3>
+                    
+                    <div class="border-t border-gray-600 pt-12 mt-12">
+                        <p class="text-gray-300 text-xl mb-8">Powered by</p>
+                        <div class="flex flex-col items-center gap-6">
+
+                            <h3 class="text-2xl md:text-3xl font-bold text-white">Royal City Clinic</h3>
                         </div>
-                        <div>
-                            <h1 class="text-white font-bold text-xl bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                                Kasaragod Expatriates Association
-                            </h1>
-                            <p class="text-gray-300 text-sm">Kuwait</p>
-                        </div>
-                    </div>
-                    <div class="text-right">
-                        <i class="fas fa-volume-up text-white opacity-50 mx-auto mb-1 block"></i>
-                        <p class="text-gray-400 text-sm">Audio ON</p>
                     </div>
                 </div>
             </div>
-        </header>
-
+        </section>
         <!-- Hero Section -->
         <section class="relative py-20 overflow-hidden">
             <div class="container mx-auto px-4 relative z-10">
@@ -350,7 +353,7 @@ body {
                         <p class="text-2xl md:text-4xl text-white font-semibold mb-2 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
                             കാസറഗോഡ്
                         </p>
-                        <p class="text-xl md:text-2xl text-gray-300 mb-12">Musical Extravaganza</p>
+                      
                     </div>
                     
                     <!-- Countdown Timer -->
@@ -377,22 +380,7 @@ body {
         <section class="py-16 relative">
             <div class="container mx-auto px-4">
                 <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-                    <div class="info-card bg-white bg-opacity-5 backdrop-blur-xl rounded-2xl p-8 text-white border border-white border-opacity-10 slide-in" style="animation-delay: 1s;">
-                        <div class="flex items-start gap-6">
-                            <div class="bg-gradient-to-br from-purple-500 to-pink-500 p-4 rounded-2xl">
-                                <i class="fas fa-calendar-alt text-white text-2xl"></i>
-                            </div>
-                            <div>
-                                <h3 class="text-2xl font-bold mb-3 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                                    Date & Time
-                                </h3>
-                                <p class="text-xl mb-1">December 5, 2025</p>
-                                <p class="text-xl text-gray-300">4:00 PM onwards</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="info-card bg-white bg-opacity-5 backdrop-blur-xl rounded-2xl p-8 text-white border border-white border-opacity-10 slide-in" style="animation-delay: 1.2s;">
+                           <div class="info-card bg-white bg-opacity-5 backdrop-blur-xl rounded-2xl p-8 text-white border border-white border-opacity-10 slide-in" style="animation-delay: 1.2s;">
   <div class="map-section">
       <h3>📍 Event Location</h3>
       <div class="map-link-container">
@@ -408,7 +396,12 @@ body {
             </div>
         </section>
 
-        <!-- Performers Section -->
+
+
+
+
+
+        <!-- Performers Section
         <section class="py-16 relative">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-16 slide-in">
@@ -450,39 +443,18 @@ body {
                 </div>
             </div>
         </section>
+         -->
 
         <!-- Sponsor Section -->
-        <section class="py-16 bg-black bg-opacity-30 relative">
-            <div class="container mx-auto px-4 text-center">
-                <div class="slide-in" style="animation-delay: 2s;">
-                    <p class="text-gray-300 text-xl mb-6">Sponsored by</p>
-                    <h3 class="text-3xl md:text-4xl font-bold text-white mb-12 bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
-                        Ahmed AL MAGHRIBI
-                    </h3>
-                    
-                    <div class="border-t border-gray-600 pt-12 mt-12">
-                        <p class="text-gray-300 text-xl mb-8">Powered by</p>
-                        <div class="flex flex-col items-center gap-6">
-                            <div class="w-32 h-32 bg-gradient-to-br from-white to-gray-300 rounded-full flex items-center justify-center shadow-2xl pulse-glow">
-                                <div class="text-center">
-                                    <div class="text-blue-600 font-bold text-sm">ROYAL</div>
-                                    <div class="text-red-600 font-bold text-sm">CITY</div>
-                                    <div class="text-green-600 font-bold text-sm">CLINIC</div>
-                                </div>
-                            </div>
-                            <h3 class="text-2xl md:text-3xl font-bold text-white">Royal City Clinic</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
 
         <!-- Footer -->
         <footer class="bg-black bg-opacity-60 py-8 relative">
             <div class="container mx-auto px-4 text-center">
                 <p class="text-gray-300 mb-2">Reg. No: INDEMB.KWT.ASSN.189</p>
                 <p class="text-gray-400 text-lg mb-2">www.keakuwait.com</p>
-                <p class="text-gray-400 text-lg mt-4">Contact: 66720062</p>
+                <p class="text-gray-400 text-lg mt-4">Contact: KEA MEDIA WING</p>
+
                 <div class="mt-6 pt-6 border-t border-gray-700">
                     <p class="text-gray-500 text-sm">Created by <span class="text-yellow-400 font-semibold">Rafeek Olavara</span></p>
                 </div>
